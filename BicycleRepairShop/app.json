@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Bicycle Repair Shop",
+    "slug": "bicycle-repair-shop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#132A3A",
+          "image": "./assets/bicycle-splash.png",
+          "imageWidth": 300,
+          "resizeMode": "contain"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "edgeToEdgeEnabled": true
+    }
+  }
+}
